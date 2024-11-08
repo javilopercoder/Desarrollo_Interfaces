@@ -1,0 +1,116 @@
+.paragraph {
+    color: RED;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.paragraph1 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.paragraph2 {
+    font-size: 13px;
+    color: green;
+    background-color: rgb(255, 255, 17);
+    padding: 5px;
+}
+
+.paragraph3 {
+    font-size: 18px;
+    color: orange;
+}
+
+.paragraph4 {
+    font-size: 12px;
+    color: rgb(36, 128, 41);
+}
+
+.paragraph5 {
+    font-size: 24px;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    border: red solid 1px;
+}
+
+.paragraph6 {
+    font-size: 12px;
+    color: rgb(36, 128, 41);
+    border: green solid 1px;
+}
+
+.paragraph7 {
+    font-size: 18px;
+    color: orange;
+    border: orange solid 1px;
+}
+
+.amet {
+    color: #FF00FF;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.vest {
+    color: red;
+    border: red solid 1px;
+    font-style: italic;
+}
+
+.quisque {
+    color: rgb(80, 16, 16);
+    border: rgb(75, 14, 14) solid 1px;
+    font-weight: bold;
+}
+
+.curi {
+    color: rgb(54, 15, 15);
+    text-decoration: underline;
+}
+
+.socis {
+    color: rgb(211, 32, 211);
+    border: rgb(202, 37, 188) solid 1px;
+    font-style: italic;
+}
+
+.etiam {
+    background-color: rgb(255, 255, 17);
+    border: green solid 1px;
+}
+
+.sagitis {
+    color: purple;
+    text-decoration: underline;
+}
+
+.porti {
+    background-color: black;
+}
+
+.volutpat {
+    color: rgb(54, 15, 15)
+}
+
+.fondogris {
+    border-top: black solid 2px;
+    border-right: black solid 0px;
+    border-left: black solid 1px;
+    border-bottom: black solid 0px;
+    background-color: rgb(182, 174, 174);
+    padding: 20px;
+    padding-left: 10px;
+    padding-bottom: 2px;
+
+}
+
+.bordeipsum {
+    border-top: black solid 1px;
+    border-right: black solid 0px;
+    border-left: black solid 1px;
+    padding: 20px;
+    padding-left: 10px;
+    padding-bottom: 2px;
+
+}

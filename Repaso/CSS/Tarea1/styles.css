@@ -1,0 +1,29 @@
+/* Estilos básicos para todos los párrafos */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Primer párrafo: cambia a verde al pasar el cursor */
+.parrafo1 {
+    color: red;
+}
+.parrafo1:hover {
+    color: green;
+}
+
+/* Segundo párrafo: aumenta su tamaño al pasar el cursor */
+.parrafo2 {
+    color: red;
+}
+.parrafo2:hover {
+    font-size: 1.2em;
+}
+
+/* Tercer párrafo: cambia a cursiva al pasar el cursor */
+.parrafo3 {
+    color: red;
+}
+.parrafo3:hover {
+    font-style: italic;
+}
