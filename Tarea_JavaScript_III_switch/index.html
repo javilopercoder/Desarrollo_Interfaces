@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de destinos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <h1>¿Quieres jugar con JavaScript?</h1>
+        <button onclick="startGame('si')">Sí</button>
+        <button onclick="startGame('no')">No</button>
+
+        <div id="message" aria-live="polite"></div>
+        
+        <!-- Pregunta sobre el destino -->
+        <section id="destino" class="hidden" aria-hidden="true">
+            <h2>¿Elige un destino: Francia, España, Portugal?</h2>
+            <button onclick="chooseDestination('francia')">Francia</button>
+            <button onclick="chooseDestination('españa')">España</button>
+            <button onclick="chooseDestination('portugal')">Portugal</button>
+        </section>
+        
+        <!-- Francia -->
+        <section id="francia" class="hidden" aria-hidden="true">
+            <h2>¿París, Marsella o Lyon?</h2>
+            <button onclick="chooseCity('paris')">París</button>
+            <button onclick="chooseCity('marsella')">Marsella</button>
+            <button onclick="chooseCity('lyon')">Lyon</button>
+        </section>
+
+        <!-- Ciudad de Francia -->
+        <section id="paris" class="hidden" aria-hidden="true">
+            <p>París es la capital de Francia, conocida por su Torre Eiffel, el Louvre y su ambiente romántico.</p>
+            <div class="image-gallery">
+                <img src="images/paris1.jpg" alt="Vista de París 1">
+                <img src="images/paris2.jpg" alt="Vista de París 2">
+                <img src="images/paris3.jpg" alt="Vista de París 3">
+            </div>
+            <h3>¿Playa o montaña?</h3>
+            <button onclick="chooseNature('playa')">Playa</button>
+            <button onclick="chooseNature('montaña')">Montaña</button>
+        </section>
+
+        <!-- Marsella -->
+        <section id="marsella" class="hidden" aria-hidden="true">
+            <p>Marsella es una ciudad portuaria famosa por su puerto antiguo, el Barrio del Panier y la Basílica de Notre-Dame de la Garde.</p>
+            <div class="image-gallery">
+                <img src="images/marsella1.jpg" alt="Vista de Marsella 1">
+                <img src="images/marsella2.jpg" alt="Vista de Marsella 2">
+                <img src="images/marsella3.jpg" alt="Vista de Marsella 3">
+            </div>
+            <h3>¿Playa o montaña?</h3>
+            <button onclick="chooseNature('playa')">Playa</button>
+            <button onclick="chooseNature('montaña')">Montaña</button>
+        </section>
+
+        <!-- Lyon -->
+        <section id="lyon" class="hidden" aria-hidden="true">
+            <p>Lyon es una ciudad francesa conocida por su gastronomía, su patrimonio histórico y su distrito de la Croix-Rousse.</p>
+            <div class="image-gallery">
+                <img src="images/lyon1.jpg" alt="Vista de Lyon 1">
+                <img src="images/lyon2.jpg" alt="Vista de Lyon 2">
+                <img src="images/lyon3.jpg" alt="Vista de Lyon 3">
+            </div>
+            <h3>¿Playa o montaña?</h3>
+            <button onclick="chooseNature('playa')">Playa</button>
+            <button onclick="chooseNature('montaña')">Montaña</button>
+        </section>
+
+        <!-- España -->
+        <section id="españa" class="hidden" aria-hidden="true">
+            <p>España es famosa por su cultura vibrante, sus playas, su gastronomía y sus monumentos históricos.</p>
+            <button onclick="chooseSpain('playa')">Playa</button>
+            <button onclick="chooseSpain('montaña')">Montaña</button>
+        </section>
+
+        <!-- Portugal -->
+        <section id="portugal" class="hidden" aria-hidden="true">
+            <h2>¿Turismo, playa o montaña?</h2>
+            <button onclick="choosePortugal('turismo')">Turismo</button>
+            <button onclick="choosePortugal('playa')">Playa</button>
+            <button onclick="choosePortugal('montaña')">Montaña</button>
+        </section>
+
+        <!-- Mostrar mensaje final -->
+        <section id="finalMessage" class="hidden" aria-hidden="true"></section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

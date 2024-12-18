@@ -1,0 +1,111 @@
+/* Reset de márgenes y padding para todo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo general de la página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Título principal */
+h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+/* Botones */
+button {
+    background-color: #3498db;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
+
+/* Mensajes de texto */
+#message {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #e74c3c;
+}
+
+/* Secciones ocultas */
+.hidden {
+    display: none;
+}
+
+/* Estilos para las galerías de imágenes */
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.image-gallery img {
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos para las preguntas */
+h2 {
+    font-size: 1.8em;
+    margin-top: 20px;
+    color: #34495e;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #34495e;
+}
+
+/* Estilo para los divs de destino */
+#destino, #francia, #españa, #portugal, #paris, #marsella, #lyon{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    width: 80%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Sección de mensaje final */
+#finalMessage {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
