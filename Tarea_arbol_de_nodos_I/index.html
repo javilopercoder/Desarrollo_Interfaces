@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú del Día</title>
+    <link rel="stylesheet" href="static/css/menu.css">
+</head>
+<body>
+    <div class="menu-container">
+        <h1>Menú del Día</h1>
+        <div class="menu-item">
+            <label for="primer-plato">Primer Plato:</label>
+            <select id="primer-plato">
+                <option value="" data-image="static/img/kitchen-tools.webp">Seleccione un plato...</option>
+                <option value="8" data-image="static/img/lentejas.webp">Lentejas (8€)</option>
+                <option value="7" data-image="static/img/ensalada.webp">Ensalada (6€)</option>
+                <option value="9" data-image="static/img/sopa.webp">Sopa (6€)</option>
+            </select>
+            <img id="image-primer-plato" src="static/img/kitchen-tools.webp" alt="Herramientas de cocina" />
+        </div>
+        <div class="menu-item">
+            <label for="segundo-plato">Segundo Plato:</label>
+            <select id="segundo-plato">
+                <option value="" data-image="static/img/kitchen-tools.webp">Seleccione un plato...</option>
+                <option value="12" data-image="static/img/pollo.webp">Pollo Asado (12€)</option>
+                <option value="15" data-image="static/img/pescado.webp">Pescado (15€)</option>
+                <option value="10" data-image="static/img/vegetales.webp">Vegetales (10€)</option>
+            </select>
+            <img id="image-segundo-plato" src="static/img/kitchen-tools.webp" alt="Herramientas de cocina" />
+        </div>
+        <div class="menu-item">
+            <label for="postre">Postre:</label>
+            <select id="postre">
+                <option value="" data-image="static/img/kitchen-tools.webp">Seleccione un postre...</option>
+                <option value="5" data-image="static/img/flan.webp">Flan (5€)</option>
+                <option value="4" data-image="static/img/helado.webp">Helado (4€)</option>
+                <option value="6" data-image="static/img/pastel.webp">Pastel (6€)</option>
+            </select>
+            <img id="image-postre" src="static/img/kitchen-tools.webp" alt="Herramientas de cocina" />
+        </div>
+        <div class="discount">
+            <input type="checkbox" id="descuento">
+            <label for="descuento">Aplicar 10% de descuento</label>
+        </div>
+        <button id="pedir">PEDIR COMIDA</button>
+    </div>
+    <script src="static/js/menu.js"></script>
+</body>
+</html>
