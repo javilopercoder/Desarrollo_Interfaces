@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Vehículos</title>
+</head>
+<body>
+    <h1>Gestión de Vehículos</h1>
+
+    <h2>Añadir Vehículo</h2>
+    <form id="vehiculo-form">
+        <label for="tipo">Tipo de Vehículo:</label>
+        <select id="tipo" required>
+            <option value="" selected>Seleccione uno</option>
+            <option value="Turismo">Turismo</option>
+            <option value="Deportivo">Deportivo</option>
+        </select>
+        <br>
+
+        <label for="matricula">Matrícula:</label>
+        <input type="text" id="matricula" required>
+        <br>
+
+        <label for="marca">Marca:</label>
+        <input type="text" id="marca" required>
+        <br>
+
+        <label for="modelo">Modelo:</label>
+        <input type="text" id="modelo" required>
+        <br>
+
+        <label for="color">Color:</label>
+        <input type="text" id="color" required>
+        <br>
+
+        <label for="puertas">Número de Puertas:</label>
+        <input type="number" id="puertas" min="2" required>
+        <br>
+
+        <label for="potencia">Potencia (CV):</label>
+        <input type="number" id="potencia" min="1" required>
+        <br>
+
+        <div id="turismo-fields" style="display: none;">
+            <label for="plazas">Número de Plazas:</label>
+            <input type="number" id="plazas" min="2" max="9">
+        </div>
+
+        <div id="deportivo-fields" style="display: none;">
+            <label for="descapotable">Descapotable:</label>
+            <select id="descapotable">
+                <option value="true">Sí</option>
+                <option value="false">No</option>
+            </select>
+        </div>
+
+        <button type="button" onclick="agregarVehiculo()">Añadir Vehículo</button>
+    </form>
+
+    <h2>Lista de Vehículos</h2>
+    <div id="resultado"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

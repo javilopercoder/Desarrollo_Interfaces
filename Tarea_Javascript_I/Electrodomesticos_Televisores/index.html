@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electrodomésticos</title>
+</head>
+<body>
+    <h1>Gestión de Electrodomésticos</h1>
+
+    <h2>Selecciona los Electrodomésticos</h2>
+    <form id="electrodomesticos-form">
+        <!-- Electrodomésticos Genéricos -->
+        <div>
+            <label for="lavadora">Lavadora (200 € - 30kg): </label>
+            <select id="lavadora" name="lavadora">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+        <div>
+            <label for="microondas">Microondas (150 € - 10kg): </label>
+            <select id="microondas" name="microondas">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+
+        <!-- Configuración de Televisores -->
+        <h2>Configura los Televisores</h2>
+        <div>
+            <label for="television">Cantidad de Televisores: </label>
+            <select id="television" name="television">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+        <div>
+            <label for="resolucion">Resolución: </label>
+            <select id="resolucion" name="resolucion">
+                <option value="20">20 pulgadas</option>
+                <option value="32">32 pulgadas</option>
+                <option value="50">50 pulgadas</option>
+            </select>
+        </div>
+        <div>
+            <label for="tdt">Sintonizador TDT: </label>
+            <select id="tdt" name="tdt">
+                <option value="false">No</option>
+                <option value="true">Sí</option>
+            </select>
+        </div>
+
+        <button type="button" onclick="calcularPrecio()">Calcular Precio Final</button>
+    </form>
+
+    <h2>Resultado</h2>
+    <div id="resultado"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
