@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explora el Mundo</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="question">¿A qué país quieres viajar?</h1>
+
+        <select id="country-select" onchange="showCountryImage()">
+            <option value="">Selecciona un país...</option>
+            <option value="spain">España</option>
+            <option value="italy">Italia</option>
+            <option value="iceland">Islandia</option>
+            <option value="usa">EE.UU.</option>
+            <option value="portugal">Portugal</option>
+        </select>
+
+        <div id="image-container">
+            <img id="country-image" src="images/mundo.jpg" alt="Mundo">
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
