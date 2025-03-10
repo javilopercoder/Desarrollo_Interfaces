@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libros>
+  <libro titulo="Cien Años de Soledad" autor="Gabriel García Márquez" año="1967" />
+  <libro titulo="Don Quijote de la Mancha" autor="Miguel de Cervantes" año="1605" />
+  <libro titulo="La Sombra del Viento" autor="Carlos Ruiz Zafón" año="2001" />
+</libros>

@@ -1,0 +1,62 @@
+[
+    {
+        "marca": "BMW",
+        "modelo": "320",
+        "kilometros": 15000,
+        "anyo": 2022,
+        "precio": 25000,
+        "motor": "Gasolina",
+        "foto": "img/bmw.jpg",
+        "disponible": true
+    },
+    {
+        "marca": "Fiat",
+        "modelo": "Punto",
+        "kilometros": 45000,
+        "anyo": 2018,
+        "precio": 8000,
+        "motor": "Diesel",
+        "foto": "img/fiat.jpg",
+        "disponible": true
+    },
+    {
+        "marca": "Volkswagen",
+        "modelo": "Golf",
+        "kilometros": 30000,
+        "anyo": 2020,
+        "precio": 20000,
+        "motor": "Híbrido",
+        "foto": "img/golf.jpg",
+        "disponible": false
+    },
+    {
+        "marca": "Opel",
+        "modelo": "Astra",
+        "kilometros": 25000,
+        "anyo": 2019,
+        "precio": 16000,
+        "motor": "Gasolina",
+        "foto": "img/opel.jpg",
+        "disponible": true
+    },
+    {
+        "marca": "Peugeot",
+        "modelo": "208",
+        "kilometros": 12000,
+        "anyo": 2021,
+        "precio": 18000,
+        "motor": "Eléctrico",
+        "foto": "img/peugeot.jpg",
+        "disponible": true
+    },
+    {
+        "marca": "Subaru",
+        "modelo": "Impreza",
+        "kilometros": 35000,
+        "anyo": 2020,
+        "precio": 22000,
+        "motor": "Gasolina",
+        "foto": "img/subaru.jpg",
+        "disponible": false
+    }
+]

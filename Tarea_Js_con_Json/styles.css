@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 20px;
+    background: url(img/background.png) no-repeat center center fixed;
+}
+
+.coche {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    text-align: left;
+    padding: 20px;
+}
+
+.coche img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.info {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+}

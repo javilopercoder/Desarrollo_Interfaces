@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 20px;
+    background-image: url("img/cielo.png");
+    background-attachment: fixed;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.card {
+    background: linear-gradient(to bottom, #aad3e4a2, #c8cdd1b7); /* Degradado de azul cielo */
+    color: rgb(22, 22, 22); /* Texto oscuro para mejor contraste */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 300px; /* Establece un ancho máximo */
+    width: 90%; /* Se adapta en pantallas pequeñas */
+    margin: auto; /* Centra la carta */
+    text-align: center; /* Asegura que el texto esté centrado */
+}
+
+/* Efecto hover para que se vea más moderna */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+
+img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 10%;
+}
+.info {
+    margin-top: 10px;
+}
+table {
+    width: 60%;
+    margin: 10px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to bottom, #aad3e4a2, #99bcd8b7); /* Degradado de azul cielo */
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #007bff;
+    color: white;
+}

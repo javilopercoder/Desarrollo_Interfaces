@@ -1,0 +1,44 @@
+[
+    {
+        "nombre": "María",
+        "apellidos": "Pérez",
+        "anioNacimiento": 1996,
+        "curso": "1º DAM",
+        "foto": "img/perro1.png"
+    },
+    {
+        "nombre": "Carlos",
+        "apellidos": "Gómez",
+        "anioNacimiento": 1999,
+        "curso": "2º DAM",
+        "foto": "img/perro2.png"
+    },
+    {
+        "nombre": "Ana",
+        "apellidos": "Torres",
+        "anioNacimiento": 2001,
+        "curso": "1º DAM",
+        "foto": "img/perro3.png"
+    },
+    {
+        "nombre": "Luis",
+        "apellidos": "Martínez",
+        "anioNacimiento": 1998,
+        "curso": "2º DAM",
+        "foto": "img/perro4.png"
+    },
+    {
+        "nombre": "Sofía",
+        "apellidos": "López",
+        "anioNacimiento": 2002,
+        "curso": "1º DAM",
+        "foto": "img/perro5.png"
+    },
+    {
+        "nombre": "David",
+        "apellidos": "Sánchez",
+        "anioNacimiento": 1997,
+        "curso": "2º DAM",
+        "foto": "img/perro6.png"
+    }
+]

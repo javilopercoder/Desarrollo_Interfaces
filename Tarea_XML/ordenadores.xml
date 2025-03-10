@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+  <producto>
+    <nombre>Smartphone XYZ</nombre>
+    <descripcion>Teléfono inteligente con alta resolución y cámara avanzada.</descripcion>
+    <precio>699.99</precio>
+    <caracteristicas>
+      <caracteristica nombre="Pantalla" valor="6.5 pulgadas"/>
+      <caracteristica nombre="Procesador" valor="Octa-core 2.2GHz"/>
+      <caracteristica nombre="Memoria" valor="128GB"/>
+      <caracteristica nombre="Precio" valor="699.99"/>
+    </caracteristicas>
+  </producto>
+  <producto>
+    <nombre>Portátil ABC</nombre>
+    <descripcion>Ordenador portátil con diseño elegante y alto rendimiento.</descripcion>
+    <precio>1299.99</precio>
+    <caracteristicas>
+      <caracteristica nombre="Pantalla" valor="15.6 pulgadas"/>
+      <caracteristica nombre="Procesador" valor="Intel i7 de 10ª generación"/>
+      <caracteristica nombre="Memoria" valor="16GB"/>
+      <caracteristica nombre="Precio" valor="1299.99"/>
+    </caracteristicas>
+  </producto>
+</catalogo>

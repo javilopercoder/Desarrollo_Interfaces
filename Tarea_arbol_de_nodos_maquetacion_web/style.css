@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+nav {
+    background-color: #cc2727;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    /* Centra el contenedor */
+    margin-top: 30px;
+    width: 100%;
+}
+
+.content img {
+    width: 50%;
+    /* La imagen ocupará la mitad del contenedor */
+    height: auto;
+    margin-left: 20px;
+}
+
+.text-content {
+    width: 50%;
+    /* El texto ocupará la otra mitad */
+    padding-left: 40px;
+    /* Espacio entre la imagen y el texto */
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.text-content h3 {
+    margin: 0;
+    padding-bottom: 10px;
+    /* Espacio entre el título y el párrafo */
+
+}
+
+.text-content p {
+    width: 80%;
+    /* El párrafo ocupa todo el ancho disponible */
+}
+
+.product {
+    display: flex;
+    justify-content: space-around;
+    /* Distribuye los elementos con espacio entre ellos */
+    margin-top: 60px;
+}
+
+.product-item {
+    text-align: left;
+    /* Centra el contenido dentro de cada item */
+    width: 30%;
+    /* Define un tamaño adecuado para cada item */
+}
+
+.product-item img {
+    width: 100%;
+    /* La imagen ocupa todo el ancho disponible dentro de su contenedor */
+    height: auto;
+}
+
+.product-item p {
+    margin: 10px 0;
+    /* Añade espacio entre la imagen y el párrafo */
+}
+
+.ver-mas {
+    background-color: #cc2727;
+    /* Color de fondo rojo */
+    color: white;
+    /* Color del texto */
+    border: none;
+    /* Elimina el borde predeterminado */
+    padding: 10px 20px;
+    /* Añade espacio dentro del botón */
+    cursor: pointer;
+    /* Cambia el cursor a mano cuando pases sobre el botón */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    font-size: 16px;
+    /* Tamaño de la fuente */
+
+}
+
+.ver-mas:hover {
+    background-color: #a92020;
+    /* Cambia el color de fondo cuando pases el ratón por encima */
+}
+
+
+.avion {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.avion img {
+    width: 100%;
+
+}
