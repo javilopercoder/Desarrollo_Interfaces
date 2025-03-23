@@ -1,24 +1,19 @@
 <?php
-// Verificamos si se ha enviado el formulario
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Recogemos y sanitizamos los datos del formulario
-    $nombre  = filter_input(INPUT_POST, 'nombre', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
-    $correo  = filter_input(INPUT_POST, 'correo', FILTER_SANITIZE_EMAIL);
-    $mensaje = filter_input(INPUT_POST, 'mensaje', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+    $nombre      = filter_input(INPUT_POST, 'nombre', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+    $apellidos   = filter_input(INPUT_POST, 'apellidos', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+    $telefono    = filter_input(INPUT_POST, 'telefono', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+    $mail        = filter_input(INPUT_POST, 'mail', FILTER_SANITIZE_EMAIL);
+    $comentarios = filter_input(INPUT_POST, 'comentarios', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 
-    // Validación básica: se requiere que todos los campos estén completos
-    if (empty($nombre) || empty($correo) || empty($mensaje)) {
+    if (empty($nombre) || empty($apellidos) || empty($telefono) || empty($mail) || empty($comentarios)) {
         echo "Todos los campos son obligatorios.";
     } else {
-        // Configuración del correo
-        $destinatario = "destinatario@example.com";  // Reemplaza con tu dirección de correo
-        $asunto = "Mensaje de: " . $nombre;
-        $cuerpo = "Nombre: $nombre\n";
-        $cuerpo .= "Correo: $correo\n\n";
-        $cuerpo .= "Mensaje:\n$mensaje";
-        $cabeceras = "From: $correo\r\n";
+        $destinatario = "javier.lopezramirezg@digitechfp.com";
+        $asunto = "Mensaje de: $nombre $apellidos";
+        $cuerpo = "Nombre: $nombre\nApellidos: $apellidos\nTeléfono: $telefono\nMail: $mail\nComentarios:\n$comentarios";
+        $cabeceras = "From: $mail\r\n";
 
-        // Envío del correo
         if (mail($destinatario, $asunto, $cuerpo, $cabeceras)) {
             echo "El correo se ha enviado correctamente.";
         } else {
@@ -34,7 +29,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8">
     <title>Formulario de Contacto</title>
     <style>
-        /* Estilos básicos para el formulario */
         body { font-family: Arial, sans-serif; margin: 20px; }
         form { max-width: 500px; margin: 0 auto; }
         label { display: block; margin-top: 10px; }
@@ -45,16 +39,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
     <h1>Contacto</h1>
-    <!-- Formulario que envía datos mediante POST -->
     <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
         <label for="nombre">Nombre:</label>
         <input type="text" name="nombre" id="nombre" required>
 
-        <label for="correo">Correo Electrónico:</label>
-        <input type="email" name="correo" id="correo" required>
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" name="apellidos" id="apellidos" required>
 
-        <label for="mensaje">Mensaje:</label>
-        <textarea name="mensaje" id="mensaje" rows="5" required></textarea>
+        <label for="telefono">Teléfono:</label>
+        <input type="text" name="telefono" id="telefono" required>
+
+        <label for="mail">Mail:</label>
+        <input type="email" name="mail" id="mail" required>
+
+        <label for="comentarios">Comentarios:</label>
+        <textarea name="comentarios" id="comentarios" rows="5" required></textarea>
 
         <input type="submit" value="Enviar">
     </form>
