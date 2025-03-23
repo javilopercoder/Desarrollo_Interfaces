@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<peliculas>
+    <pelicula>
+        <titulo>El Secreto</titulo>
+        <direccion>Juan Pérez</direccion>
+        <duracion>120 min</duracion>
+        <nacionalidad>España</nacionalidad>
+        <actores>Mario Casas, Blanca Suárez</actores>
+        <genero>Drama</genero>
+        <sinopsis>Una historia de misterio y secretos ocultos en una familia.</sinopsis>
+        <imagen>el-secreto.jpg</imagen>
+    </pelicula>
+    <pelicula>
+        <titulo>El Vendedor de tabaco</titulo>
+        <direccion>Ana López</direccion>
+        <duracion>110 min</duracion>
+        <nacionalidad>México</nacionalidad>
+        <actores>Gael García, Diego Luna</actores>
+        <genero>Suspenso</genero>
+        <sinopsis>Un hombre con una vida secreta en el mundo de las ventas.</sinopsis>
+        <imagen>el-vendedor.jpg</imagen>
+    </pelicula>
+    <pelicula>
+        <titulo>La Biblioteca</titulo>
+        <direccion>Carlos Herrera</direccion>
+        <duracion>95 min</duracion>
+        <nacionalidad>Argentina</nacionalidad>
+        <actores>Ricardo Darín, Julieta Díaz</actores>
+        <genero>Misterio</genero>
+        <sinopsis>Un bibliotecario descubre un libro maldito.</sinopsis>
+        <imagen>la-biblioteca.jpg</imagen>
+    </pelicula>
+    <pelicula>
+        <titulo>La Espía</titulo>
+        <direccion>Laura Martínez</direccion>
+        <duracion>130 min</duracion>
+        <nacionalidad>EE.UU.</nacionalidad>
+        <actores>Scarlett Johansson, Tom Hardy</actores>
+        <genero>Acción</genero>
+        <sinopsis>Una agente secreta en una misión peligrosa.</sinopsis>
+        <imagen>la-espia.jpg</imagen>
+    </pelicula>
+</peliculas>

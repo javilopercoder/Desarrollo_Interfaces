@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.grid img {
+    width: 250px;
+    height: 300px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+.grid img:hover {
+    border: 2px solid blue;
+}
+.descripcion {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.video-container {
+    margin-bottom: 20px; /* Ajusta el espacio entre el video y la descripción */
+    text-align: flex-start;  /* Asegura que el video esté centrado */
+}
+
+.video-container iframe {
+    max-width: 100%;
+    height: 315px;
+}
