@@ -1,0 +1,58 @@
+/* Estilos para el cuadro de búsqueda */
+
+.search-box {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+.search-box form {
+    display: flex;
+    align-items: flex-start; /* Alinear desde arriba para mayor precisión */
+    position: relative; /* Permite posicionamiento más preciso de los elementos internos */
+}
+
+.search-box input[type="text"] {
+    flex: 1;
+    padding: 12px 15px;
+    border: 2px solid #ddd;
+    border-right: none; /* Eliminamos el borde derecho */
+    border-radius: 4px 0 0 4px;
+    font-size: 1rem;
+    width: 100%;
+    transition: border-color 0.3s;
+    height: 48px; /* Altura fija */
+    box-sizing: border-box; /* Asegurar que el padding y el borde se incluyan en la altura */
+}
+
+.search-box input[type="text"]:focus {
+    border-color: var(--primary-color);
+    outline: none;
+}
+
+/* Minimizamos los estilos base del botón y dejamos que search-icon-fix.css se encargue */
+.search-box button {
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background-color: var(--secondary-color);
+}
+
+.advanced-search-link {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.advanced-search-link a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.advanced-search-link a:hover {
+    text-decoration: underline;
+}

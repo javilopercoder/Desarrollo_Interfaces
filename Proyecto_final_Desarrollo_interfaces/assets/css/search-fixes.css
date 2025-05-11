@@ -1,0 +1,41 @@
+/* Correcciones para el alineamiento de los campos de búsqueda */
+/* Este archivo complementa los estilos de search-box.css */
+
+/* Mejoras para alinear correctamente el botón de búsqueda con el ícono de la lupa */
+/* Eliminamos este estilo duplicado ya que ahora está en search-box.css */
+
+/* Quitamos estilos duplicados del botón, ya que se gestionan en search-icon-fix.css */
+/* Los estilos para el botón ahora están centralizados en search-icon-fix.css */
+
+/* Mejoras para búsqueda avanzada */
+.filter-buttons .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px; /* Espacio entre el ícono y el texto */
+}
+
+.filter-buttons .btn-primary i {
+    font-size: 16px; /* Tamaño adecuado para el ícono */
+}
+
+/* Mejoras para el campo de búsqueda avanzada */
+.filter-section .form-control {
+    height: 42px;
+    box-sizing: border-box;
+    padding: 8px 12px;
+}
+
+/* Mejoras para dispositivos móviles */
+@media (max-width: 768px) {
+    .search-box form {
+        display: flex;
+        width: 100%;
+    }
+    
+    .search-box input[type="text"] {
+        height: 44px; /* Ligeramente más pequeño en móvil */
+    }
+    
+    /* Quitamos el estilo del botón en móvil, ya está en search-icon-fix.css */
+}

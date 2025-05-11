@@ -1,0 +1,353 @@
+/* Estilos para el sistema de búsqueda avanzada, etiquetas, valoraciones y breadcrumbs */
+
+/* Estilos para el enlace de búsqueda avanzada */
+.search-box {
+    position: relative;
+}
+
+.advanced-search-link {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.advanced-search-link a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.advanced-search-link a:hover {
+    text-decoration: underline;
+}
+
+/* Sistema de etiquetas */
+.tag, 
+.article-tags a {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #f0f0f0;
+    color: #555;
+    padding: 3px 8px;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    text-decoration: none;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    transition: all 0.2s;
+}
+
+.tag:hover, 
+.article-tags a:hover {
+    background-color: #e0e0e0;
+    transform: translateY(-2px);
+}
+
+.article-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 15px 0;
+}
+
+/* Sistema de valoraciones */
+.article-rating {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.rating {
+    display: inline-flex;
+    align-items: center;
+}
+
+.rating .fa-star {
+    color: #ffcc00;
+    margin-right: 2px;
+}
+
+.rating-text {
+    margin-left: 8px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.article-rating-form {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.rating-stars {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+.rating-stars input[type="radio"] {
+    display: none;
+}
+
+.rating-stars label {
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #ddd;
+    padding: 0 5px;
+}
+
+.rating-stars label:hover, 
+.rating-stars label:hover ~ label,
+.rating-stars input[type="radio"]:checked ~ label {
+    color: #ffcc00;
+}
+
+/* Sistema de migas de pan (breadcrumbs) */
+.breadcrumbs {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    list-style: none;
+    font-size: 0.9rem;
+}
+
+.breadcrumbs a {
+    color: var(--primary-color);
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.breadcrumbs a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumbs span {
+    color: #666;
+    margin-right: 5px;
+}
+
+.breadcrumbs a:after {
+    content: " \00BB";
+    color: #888;
+    margin: 0 5px;
+}
+
+/* Estilos para artículos relacionados */
+.related-articles {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.related-articles h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.related-articles ul {
+    list-style: none;
+    padding: 0;
+}
+
+.related-articles li {
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px dashed #eee;
+}
+
+.related-articles li:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.related-articles a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.related-articles a:hover {
+    text-decoration: underline;
+}
+
+.related-articles .category {
+    display: block;
+    font-size: 0.85rem;
+    color: #777;
+    margin-top: 3px;
+}
+
+.related-article-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.related-article-info {
+    flex: 1;
+}
+
+/* Cuadro de filtros de búsqueda avanzada */
+.advanced-search .search-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.search-filters {
+    flex: 1;
+    min-width: 280px;
+    max-width: 350px;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-results {
+    flex: 2;
+    min-width: 500px;
+}
+
+.tag-select {
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.date-range .date-inputs {
+    display: flex;
+    gap: 10px;
+}
+
+.date-inputs > div {
+    flex: 1;
+}
+
+/* Responsive para búsqueda avanzada */
+@media (max-width: 900px) {
+    .advanced-search .search-container {
+        flex-direction: column;
+    }
+    
+    .search-filters {
+        max-width: none;
+    }
+}
+
+/* Estilo para artículo individual */
+.article-detail {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.article-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.article-main {
+    flex: 3;
+    min-width: 300px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.article-sidebar {
+    flex: 1;
+    min-width: 250px;
+}
+
+.article-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: var(--secondary-color);
+    font-size: 2rem;
+}
+
+.article-meta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.article-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.article-image {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.article-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.article-summary {
+    background: #f8f9fa;
+    padding: 20px;
+    border-left: 4px solid var(--primary-color);
+    margin-bottom: 30px;
+    border-radius: 0 5px 5px 0;
+}
+
+.article-summary h4 {
+    margin-top: 0;
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+}
+
+.article-content {
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+/* Responsive para detalle de artículo */
+@media (max-width: 900px) {
+    .article-container {
+        flex-direction: column;
+    }
+    
+    .article-sidebar {
+        order: -1;
+    }
+}
+
+/* Mejoras generales para UI */
+.knowledge-article {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.knowledge-article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}

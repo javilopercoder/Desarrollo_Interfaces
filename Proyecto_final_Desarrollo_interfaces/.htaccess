@@ -1,0 +1,12 @@
+# Redirigir URLs con /admin/admin/ a /admin/
+RewriteEngine On
+RewriteRule ^admin/admin/(.*)$ /admin/$1 [R=301,L]
+
+# Permitir acceso a archivos estáticos
+<FilesMatch "\.(css|js|jpg|jpeg|png|gif|ico)$">
+    Order allow,deny
+    Allow from all
+</FilesMatch>
+
+# Proteger los directorios
+Options -Indexes

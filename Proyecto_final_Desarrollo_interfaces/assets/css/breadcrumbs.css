@@ -1,0 +1,30 @@
+/* Estilos para migas de pan (breadcrumbs) */
+.breadcrumbs {
+    background-color: #f8f9fa;
+    padding: 12px 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.breadcrumbs a {
+    color: #0099ff;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.breadcrumbs a:hover {
+    color: #0077cc;
+    text-decoration: underline;
+}
+
+.breadcrumbs span {
+    color: #6c757d;
+    font-weight: 500;
+}
+
+.breadcrumbs .separator {
+    margin: 0 8px;
+    color: #ccc;
+}

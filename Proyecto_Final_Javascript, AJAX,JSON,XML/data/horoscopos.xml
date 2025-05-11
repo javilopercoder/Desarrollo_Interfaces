@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<horoscopos>
+  <signos_zodiacales>
+    <signo>
+      <nombre>Aries</nombre>
+      <fecha_inicio>21-03</fecha_inicio>
+      <fecha_fin>19-04</fecha_fin>
+      <imagen>aries.png</imagen>
+      <prediccion>
+        Experimentarás cambios en lo personal, está claro que hacer, cuándo y cómo hacerlo. También acabará hecha el seguimiento de los acuerdos y pactos. Tendrás éxito, seguridad y capacidad para gestionar proyectos que ahora estructuras. Finalmente, conseguirás ganarte el respeto de los demás.
+      </prediccion>
+      <caracteristicas>
+        Aries forma parte de los signos cardinales y al mismo tiempo es un signo de fuego. Precisamente por eso simboliza el inicio, la creación. Se caracteriza por ser una persona rebosante de energía y entusiasmo; avanzada y aventurera, adora la libertad, los retos y las ideas nuevas. Los Aries son de acción rápida y confían en su poder, por eso no les gusta perder el tiempo en proyectos de hecho, no soportan demoras, complicaciones o demasiados detalles. A veces les cuesta controlar su impulsividad y falta de paciencia, además de entregarse demasiado. Tampoco soportan equivocarse ni fallar. Son personas independientes y no pueden evitar cierta obsesión por conseguir lo que desean en la vida, precisamente por ello pueden parecer ambiciosos y hasta egoístas en exceso. Es muy fácil que se sientan ofendidos, y cuando esto sucede, resulta extremadamente difícil hacer las paces con ellas. En sus relaciones personales, Aries suele ser noble y directo, aunque su naturaleza impulsiva e impaciente a menudo lastima la sensibilidad de quienes tiene cerca. Finalmente, Aries acostumbra a tener la libido sexual alta para con una gran pasión, pues el sexo para Aries es toda una aventura.
+      </caracteristicas>
+    </signo>
+    <signo>
+      <nombre>Tauro</nombre>
+      <fecha_inicio>20-04</fecha_inicio>
+      <fecha_fin>20-05</fecha_fin>
+      <imagen>tauro.png</imagen>
+      <prediccion>
+        Un deseo oculto podría hacerse realidad. Se aclaran malentendidos con tu pareja o familiares. Es buen momento para tomar decisiones importantes. En el trabajo, recibirás el reconocimiento que mereces.
+      </prediccion>
+      <caracteristicas>
+        Tauro es un signo de tierra, regido por Venus. Las personas de este signo son prácticas, decididas y tienen una gran fuerza de voluntad. Se caracterizan por su paciencia, perseverancia y por ser muy trabajadoras. Les gusta la estabilidad, la rutina y la seguridad. Son muy leales en sus relaciones personales y disfrutan de los placeres sensoriales de la vida.
+      </caracteristicas>
+    </signo>
+    <signo>
+      <nombre>Géminis</nombre>
+      <fecha_inicio>21-05</fecha_inicio>
+      <fecha_fin>20-06</fecha_fin>
+      <imagen>geminis.png</imagen>
+      <prediccion>
+        Tu mente estará especialmente clara y aguda hoy. Aprovecha para resolver problemas pendientes. En el amor, la comunicación será fluida y sincera. Un encuentro inesperado podría cambiar tus planes.
+      </prediccion>
+      <caracteristicas>
+        Géminis es un signo de aire, regido por Mercurio. Las personas de este signo son curiosas, adaptables y versátiles. Tienen una gran capacidad para comunicarse y expresarse. Son intelectuales, siempre buscando nuevos conocimientos y experiencias. Pueden parecer inquietas e inconstantes debido a su naturaleza dual.
+      </caracteristicas>
+    </signo>
+    <signo>
+      <nombre>Cáncer</nombre>
+      <fecha_inicio>21-06</fecha_inicio>
+      <fecha_fin>22-07</fecha_fin>
+      <imagen>cancer.png</imagen>
+      <prediccion>
+        Tus emociones estarán a flor de piel. Un familiar necesitará tu apoyo. Es buen momento para ocuparte de tu hogar. En lo profesional, confía más en tu intuición para tomar decisiones.
+      </prediccion>
+      <caracteristicas>
+        Cáncer es un signo de agua, regido por la Luna. Las personas de este signo son emotivas, intuitivas y protectoras. Tienen una gran sensibilidad y empatía hacia los demás. Valoran mucho la familia y el hogar. Aunque pueden parecer reservadas al principio, una vez que confían en alguien son muy leales.
+      </caracteristicas>
+    </signo>
+    <signo>
+      <nombre>Leo</nombre>
+      <fecha_inicio>23-07</fecha_inicio>
+      <fecha_fin>22-08</fecha_fin>
+      <imagen>leo.png</imagen>
+      <prediccion>
+        Brillarás con luz propia hoy. Tu carisma atraerá oportunidades. En el amor, sé generoso y recibirás lo mismo. Un proyecto creativo podría traerte éxito y reconocimiento.
+      </prediccion>
+      <caracteristicas>
+        Leo es un signo de fuego, regido por el Sol. Las personas de este signo son carismáticas, creativas y tienen un gran corazón. Les gusta ser el centro de atención y recibir reconocimiento. Son leales y generosas con quienes aman. Poseen una gran confianza en sí mismas y una fuerte voluntad.
+      </caracteristicas>
+    </signo>
+    <signo>
+      <nombre>Virgo</nombre>
+      <fecha_inicio>23-08</fecha_inicio>
+      <fecha_fin>22-09</fecha_fin>
+      <imagen>virgo.png</imagen>
+      <prediccion>
+        Es tiempo de ordenar tus pensamientos y prioridades. Tu capacidad analítica estará potenciada. En el amor, no seas tan crítico. Un cambio en tu rutina diaria te beneficiará enormemente.
+      </prediccion>
+      <caracteristicas>
+        Virgo es un signo de tierra, regido por Mercurio. Las personas de este signo son meticulosas, analíticas y prácticas. Tienen una gran capacidad para el detalle y la organización. Son serviciales y les gusta ser útiles. Aunque pueden parecer críticas, es porque buscan la perfección en todo.
+      </caracteristicas>
+    </signo>
+    <signo>
+      <nombre>Libra</nombre>
+      <fecha_inicio>23-09</fecha_inicio>
+      <fecha_fin>22-10</fecha_fin>
+      <imagen>libra.png</imagen>
+      <prediccion>
+        Buscarás el equilibrio en todos los aspectos de tu vida. Una decisión importante requerirá diplomacia. En el amor, la armonía y el romanticismo estarán presentes. Evita los conflictos innecesarios.
+      </prediccion>
+      <caracteristicas>
+        Libra es un signo de aire, regido por Venus. Las personas de este signo son diplomáticas, justas y sociables. Valoran la armonía y la belleza. Son excelentes mediadores en conflictos. Aunque a veces les cuesta tomar decisiones porque ven todos los puntos de vista, son muy equilibradas en sus juicios.
+      </caracteristicas>
+    </signo>
+    <signo>
+      <nombre>Escorpio</nombre>
+      <fecha_inicio>23-10</fecha_inicio>
+      <fecha_fin>21-11</fecha_fin>
+      <imagen>escorpio.png</imagen>
+      <prediccion>
+        Tu intuición estará muy aguda. Secretos podrían salir a la luz. En el amor, la pasión será intensa. Es momento de transformar algo que ya no te sirve en tu vida.
+      </prediccion>
+      <caracteristicas>
+        Escorpio es un signo de agua, regido por Plutón y Marte. Las personas de este signo son intensas, apasionadas y enigmáticas. Tienen una gran capacidad para regenerarse y transformarse. Son extremadamente leales pero también pueden ser celosas. Su intuición es muy poderosa.
+      </caracteristicas>
+    </signo>
+    <signo>
+      <nombre>Sagitario</nombre>
+      <fecha_inicio>22-11</fecha_inicio>
+      <fecha_fin>21-12</fecha_fin>
+      <imagen>sagitario.png</imagen>
+      <prediccion>
+        Tu optimismo contagiará a quienes te rodean. Un viaje podría estar en tu horizonte. En el amor, buscarás libertad y aventura. Una conversación filosófica te abrirá nuevas perspectivas.
+      </prediccion>
+      <caracteristicas>
+        Sagitario es un signo de fuego, regido por Júpiter. Las personas de este signo son optimistas, aventureras y filosóficas. Aman la libertad y los viajes. Son honestas y directas en su comunicación. Tienden a ver siempre el lado positivo de la vida y a buscar la verdad.
+      </caracteristicas>
+    </signo>
+    <signo>
+      <nombre>Capricornio</nombre>
+      <fecha_inicio>22-12</fecha_inicio>
+      <fecha_fin>19-01</fecha_fin>
+      <imagen>capricornio.png</imagen>
+      <prediccion>
+        Tu disciplina y perseverancia darán frutos. En el trabajo, podrías recibir una oferta interesante. En el amor, muestra tu lado más tierno. Es buen momento para planificar metas a largo plazo.
+      </prediccion>
+      <caracteristicas>
+        Capricornio es un signo de tierra, regido por Saturno. Las personas de este signo son disciplinadas, responsables y ambiciosas. Tienen una gran capacidad para el trabajo duro y la perseverancia. Aunque pueden parecer serias y reservadas, tienen un gran sentido del humor. Valoran la tradición y la estabilidad.
+      </caracteristicas>
+    </signo>
+    <signo>
+      <nombre>Acuario</nombre>
+      <fecha_inicio>20-01</fecha_inicio>
+      <fecha_fin>18-02</fecha_fin>
+      <imagen>acuario.png</imagen>
+      <prediccion>
+        Tu mente innovadora encontrará soluciones creativas. Un amigo podría sorprenderte con un gesto inesperado. En el amor, buscarás independencia y originalidad. Participar en causas sociales te llenará de satisfacción.
+      </prediccion>
+      <caracteristicas>
+        Acuario es un signo de aire, regido por Urano. Las personas de este signo son innovadoras, independientes y humanitarias. Tienen ideas progresistas y a menudo van por delante de su tiempo. Valoran la amistad y la libertad. Aunque pueden parecer distantes emocionalmente, tienen un gran sentido de la justicia social.
+      </caracteristicas>
+    </signo>
+    <signo>
+      <nombre>Piscis</nombre>
+      <fecha_inicio>19-02</fecha_inicio>
+      <fecha_fin>20-03</fecha_fin>
+      <imagen>piscis.png</imagen>
+      <prediccion>
+        Tu sensibilidad e intuición estarán potenciadas. Un sueño podría darte una pista importante. En el amor, deja fluir tus emociones. La creatividad artística te ayudará a expresar lo que sientes.
+      </prediccion>
+      <caracteristicas>
+        Piscis es un signo de agua, regido por Neptuno. Las personas de este signo son intuitivas, sensibles y compasivas. Tienen una gran capacidad para la empatía y el sacrificio. Son soñadoras y a menudo tienen talentos artísticos. Aunque pueden parecer evasivas, tienen una profunda conexión con el mundo espiritual.
+      </caracteristicas>
+    </signo>
+  </signos_zodiacales>
+  <horoscopo_chino>
+    <animal>
+      <nombre>Rata</nombre>
+      <anios>1924, 1936, 1948, 1960, 1972, 1984, 1996, 2008, 2020</anios>
+      <imagen>rata.png</imagen>
+      <prediccion>
+        Este año será de oportunidades inesperadas para la Rata. Tu agudeza mental y adaptabilidad te permitirán superar cualquier desafío. Es un buen momento para buscar estabilidad financiera y fortalecer relaciones profesionales. En el amor, la comunicación sincera será la clave del éxito.
+      </prediccion>
+      <caracteristicas>
+        Las personas nacidas en el año de la Rata son inteligentes, astutas y adaptables. Son ambiciosas y trabajadoras, con gran habilidad para los negocios y el ahorro. Son encantadoras socialmente aunque a veces pueden ser tímidas. Suelen ser detallistas y observadoras.
+      </caracteristicas>
+    </animal>
+    <animal>
+      <nombre>Buey</nombre>
+      <anios>1925, 1937, 1949, 1961, 1973, 1985, 1997, 2009, 2021</anios>
+      <imagen>buey.png</imagen>
+      <prediccion>
+        El Buey experimentará un año de consolidación y progreso constante. Tu perseverancia será recompensada especialmente en el ámbito laboral. Es momento de planificar a largo plazo y de establecer bases sólidas. En el amor, la estabilidad emocional traerá armonía a tus relaciones.
+      </prediccion>
+      <caracteristicas>
+        Las personas nacidas en el año del Buey son trabajadoras, confiables y disciplinadas. Son pacientes y metódicas, con una gran resistencia ante las dificultades. Valoran la estabilidad y la tradición. Aunque pueden parecer inflexibles, son muy leales y responsables.
+      </caracteristicas>
+    </animal>
+    <animal>
+      <nombre>Tigre</nombre>
+      <anios>1926, 1938, 1950, 1962, 1974, 1986, 1998, 2010, 2022</anios>
+      <imagen>tigre.png</imagen>
+      <prediccion>
+        Un año lleno de energía y pasión para el Tigre. Tu carisma natural atraerá nuevas oportunidades y personas a tu vida. Es el momento perfecto para tomar riesgos calculados y buscar nuevos horizontes. El éxito llegará si mantienes tu determinación y coraje intactos.
+      </prediccion>
+      <caracteristicas>
+        Las personas nacidas en el año del Tigre son valientes, competitivas y carismáticas. Tienen una fuerte personalidad y son muy independientes. Les gusta asumir riesgos y nuevos desafíos. Son protectoras con sus seres queridos y defienden con pasión sus ideales.
+      </caracteristicas>
+    </animal>
+    <animal>
+      <nombre>Conejo</nombre>
+      <anios>1927, 1939, 1951, 1963, 1975, 1987, 1999, 2011, 2023</anios>
+      <imagen>conejo.png</imagen>
+      <prediccion>
+        El Conejo disfrutará de un año de paz y armonía. Tu diplomacia y sensibilidad te ayudarán a resolver conflictos y a mejorar relaciones personales. Es un buen momento para invertir en tu hogar y bienestar. En lo profesional, tu creatividad será muy valorada y reconocida.
+      </prediccion>
+      <caracteristicas>
+        Las personas nacidas en el año del Conejo son tranquilas, elegantes y sensibles. Tienen un carácter pacífico y son muy diplomáticas en sus relaciones. Valoran la armonía y la belleza. Son prudentes con el dinero y tienen buen gusto. Aunque evitan los conflictos, son muy resolutivas.
+      </caracteristicas>
+    </animal>
+    <animal>
+      <nombre>Dragón</nombre>
+      <anios>1928, 1940, 1952, 1964, 1976, 1988, 2000, 2012, 2024</anios>
+      <imagen>dragon.png</imagen>
+      <prediccion>
+        Un año de grandes logros y reconocimiento para el Dragón. Tu liderazgo natural y entusiasmo te abrirán puertas que antes parecían cerradas. Es momento de brillar y compartir tus ideas. En el amor, tu carisma atraerá admiradores, pero busca a alguien que valore tu verdadera esencia.
+      </prediccion>
+      <caracteristicas>
+        Las personas nacidas en el año del Dragón son enérgicas, carismáticas y afortunadas. Tienen una naturaleza poderosa y ambiciosa. Son líderes naturales y muy creativas. Aunque pueden parecer arrogantes, son generosas y protectoras con quienes aman.
+      </caracteristicas>
+    </animal>
+    <animal>
+      <nombre>Serpiente</nombre>
+      <anios>1929, 1941, 1953, 1965, 1977, 1989, 2001, 2013, 2025</anios>
+      <imagen>serpiente.png</imagen>
+      <prediccion>
+        La Serpiente experimentará un año de profundidad y transformación. Tu intuición estará más aguda que nunca, permitiéndote ver más allá de lo evidente. Es un buen momento para estudios e investigación. En el amor, las relaciones se profundizarán si cultivas la honestidad emocional.
+      </prediccion>
+      <caracteristicas>
+        Las personas nacidas en el año de la Serpiente son intuitivas, sabias y elegantes. Tienen una gran capacidad para analizar situaciones complejas. Son discretas y prefieren mantener un perfil bajo. Aunque pueden parecer misteriosas, son muy leales con quienes confían.
+      </caracteristicas>
+    </animal>
+    <animal>
+      <nombre>Caballo</nombre>
+      <anios>1930, 1942, 1954, 1966, 1978, 1990, 2002, 2014, 2026</anios>
+      <imagen>caballo.png</imagen>
+      <prediccion>
+        Un año dinámico y de expansión para el Caballo. Tu energía y espíritu libre te llevarán a explorar nuevos horizontes, tanto físicos como mentales. Viajes y nuevas experiencias marcarán este período. En lo profesional, tu entusiasmo será contagioso y te ganará el apoyo de colaboradores clave.
+      </prediccion>
+      <caracteristicas>
+        Las personas nacidas en el año del Caballo son energéticas, independientes y aventureras. Les gusta la libertad y el movimiento constante. Son sociables y tienen facilidad para hacer amigos. Aunque pueden ser impacientes, son muy trabajadoras y entusiastas.
+      </caracteristicas>
+    </animal>
+    <animal>
+      <nombre>Cabra</nombre>
+      <anios>1931, 1943, 1955, 1967, 1979, 1991, 2003, 2015, 2027</anios>
+      <imagen>cabra.png</imagen>
+      <prediccion>
+        La Cabra vivirá un año de creatividad y expresión artística. Tu sensibilidad estará exaltada, permitiéndote conectar con tu lado más creativo. Es buen momento para proyectos artísticos y sociales. En lo personal, cultivar la autoconfianza te ayudará a superar momentos de duda.
+      </prediccion>
+      <caracteristicas>
+        Las personas nacidas en el año de la Cabra son artísticas, sensibles y compasivas. Tienen un carácter tranquilo y son muy creativas. Valoran la belleza y la armonía. Aunque pueden parecer tímidas, son muy cálidas con quienes conocen bien.
+      </caracteristicas>
+    </animal>
+    <animal>
+      <nombre>Mono</nombre>
+      <anios>1932, 1944, 1956, 1968, 1980, 1992, 2004, 2016, 2028</anios>
+      <imagen>mono.png</imagen>
+      <prediccion>
+        El Mono disfrutará de un año de ingenio y oportunidades. Tu mente ágil te permitirá encontrar soluciones creativas a problemas complejos. Es un buen momento para aprender nuevas habilidades y expandir tu red de contactos. En el amor, el humor y la diversión serán tus mejores aliados.
+      </prediccion>
+      <caracteristicas>
+        Las personas nacidas en el año del Mono son inteligentes, ingeniosas y divertidas. Tienen una gran capacidad para resolver problemas y adaptarse a situaciones nuevas. Son curiosas y les gusta aprender. Aunque pueden ser traviesas, son muy carismáticas.
+      </caracteristicas>
+    </animal>
+    <animal>
+      <nombre>Gallo</nombre>
+      <anios>1933, 1945, 1957, 1969, 1981, 1993, 2005, 2017, 2029</anios>
+      <imagen>gallo.png</imagen>
+      <prediccion>
+        El Gallo tendrá un año de reconocimiento y perfeccionamiento. Tu atención al detalle y tu dedicación serán valoradas en el ámbito profesional. Es momento de mostrar tus talentos y aspirar a posiciones de mayor responsabilidad. En lo personal, aprende a delegar y a confiar más en los demás.
+      </prediccion>
+      <caracteristicas>
+        Las personas nacidas en el año del Gallo son valientes, trabajadoras y sinceras. Son muy puntuales y organizadas. Les gusta la perfección y son detallistas. Aunque pueden ser demasiado directas, son muy leales y protectoras con su familia.
+      </caracteristicas>
+    </animal>
+    <animal>
+      <nombre>Perro</nombre>
+      <anios>1934, 1946, 1958, 1970, 1982, 1994, 2006, 2018, 2030</anios>
+      <imagen>perro.png</imagen>
+      <prediccion>
+        El Perro experimentará un año de lealtad recompensada. Tu dedicación y sentido de justicia te granjearán el respeto de quienes te rodean. Es un buen momento para defender causas en las que crees firmemente. En el amor, la fidelidad y el compromiso traerán estabilidad emocional.
+      </prediccion>
+      <caracteristicas>
+        Las personas nacidas en el año del Perro son leales, honestas y protectoras. Tienen un fuerte sentido de la justicia y defienden a los más débiles. Son trabajadoras y responsables. Aunque pueden ser críticas, son muy fieles en sus relaciones.
+      </caracteristicas>
+    </animal>
+    <animal>
+      <nombre>Cerdo</nombre>
+      <anios>1935, 1947, 1959, 1971, 1983, 1995, 2007, 2019, 2031</anios>
+      <imagen>cerdo.png</imagen>
+      <prediccion>
+        El Cerdo disfrutará de un año de abundancia y bienestar. Tu generosidad será recompensada con nuevas amistades y oportunidades. Es un buen momento para inversiones a largo plazo. En lo personal, encontrarás equilibrio entre el trabajo y el placer, permitiéndote disfrutar plenamente de la vida.
+      </prediccion>
+      <caracteristicas>
+        Las personas nacidas en el año del Cerdo son amables, generosas y optimistas. Tienen un carácter noble y disfrutan de los placeres de la vida. Son muy trabajadoras pero también saben disfrutar. Aunque pueden ser ingenuas, son muy sinceras y confiables.
+      </caracteristicas>
+    </animal>
+  </horoscopo_chino>
+</horoscopos>

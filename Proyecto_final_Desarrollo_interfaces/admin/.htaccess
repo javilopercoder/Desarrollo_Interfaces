@@ -1,0 +1,8 @@
+# Permitir acceso a archivos estáticos
+<FilesMatch "\.(css|js|jpg|jpeg|png|gif|ico)$">
+    Order allow,deny
+    Allow from all
+</FilesMatch>
+
+# Proteger los directorios
+Options -Indexes

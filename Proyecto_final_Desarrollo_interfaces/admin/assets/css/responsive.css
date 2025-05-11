@@ -1,0 +1,221 @@
+/* Estilos para diseño responsive */
+
+/* Clases de utilidad para responsive */
+.d-md-none {
+    display: none !important;
+}
+
+@media (max-width: 768px) {
+    .d-md-none {
+        display: block !important;
+    }
+}
+
+/* Tablet breakpoint */
+@media (max-width: 992px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    /* Ajustes para menú de navegación en tablet */
+    .main-nav ul {
+        gap: 10px;
+    }
+    
+    /* Rejillas para paneles de estadísticas */
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .ticket-list .ticket-details {
+        flex-direction: column;
+    }
+    
+    /* Formularios */
+    .form-row {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .form-row .form-group {
+        width: 100%;
+    }
+}
+
+/* Mobile breakpoint */
+@media (max-width: 768px) {
+    /* Estilos para menú hamburguesa */
+    .menu-toggle {
+        display: block;
+    }
+    
+    .main-nav {
+        position: fixed;
+        top: 60px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+        background: var(--primary-color);
+        transition: height 0.3s ease;
+        z-index: 100;
+    }
+    
+    .main-nav.active {
+        height: auto;
+        padding: 20px 0;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    
+    .main-nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .main-nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .main-nav ul li a {
+        padding: 12px 15px;
+        display: block;
+    }
+    
+    .submenu {
+        position: static;
+        box-shadow: none;
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+        padding: 0;
+    }
+    
+    .main-nav ul li:hover .submenu {
+        max-height: 500px;
+    }
+
+    /* Grids para estadísticas y paneles */
+    .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .admin-panel-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Tickets y detalles */
+    .ticket-header, .ticket-actions {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .ticket-header h1 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    
+    .ticket-actions {
+        margin-top: 15px;
+        gap: 10px;
+    }
+    
+    .comment-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    /* Formularios */
+    .search-box input[type="text"] {
+        width: 100%;
+    }
+    
+    .filter-options {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .filter-group {
+        width: 100%;
+    }
+    
+    /* Footer */
+    .footer-links {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+}
+
+/* Small mobile breakpoint */
+@media (max-width: 480px) {
+    .header-content {
+        padding: 10px 0;
+    }
+    
+    .logo {
+        font-size: 18px;
+    }
+    
+    .form-container {
+        padding: 15px;
+    }
+    
+    .btn {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+    
+    /* Datos de tickets */
+    .ticket-detail-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .ticket-table th, .ticket-table td {
+        padding: 8px;
+    }
+    
+    .comment-content {
+        padding: 10px;
+    }
+    
+    /* Alertas */
+    .alert {
+        padding: 10px;
+    }
+}
+
+/* Impresión */
+@media print {
+    header, footer, .ticket-actions, .search-box, .filter-options, .no-print {
+        display: none;
+    }
+    
+    body {
+        background: white;
+        font-size: 12pt;
+    }
+    
+    .container {
+        width: 100%;
+        max-width: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .ticket-detail, .comment-list {
+        break-inside: avoid;
+    }
+    
+    .ticket-header h1 {
+        font-size: 18pt;
+    }
+    
+    a {
+        color: black;
+        text-decoration: none;
+    }
+}
