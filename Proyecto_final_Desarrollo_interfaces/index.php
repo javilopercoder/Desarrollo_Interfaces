@@ -71,8 +71,8 @@ if (!$db_actualizada) {
     exit;
 }
 
-// Obtener el contador de visitas
-$visitas = getContadorVisitas();
+// Obtener el contador de visitas (contar solo visitantes únicos)
+$visitas = getContadorVisitas(true, 3600);
 
 // Incluir header
 include 'includes/header.php';

@@ -56,6 +56,8 @@ $is_support = tieneRol('soporte');
     <!-- Estilos de búsqueda -->
     <link rel="stylesheet" href="/assets/css/search-box.css">
     <link rel="stylesheet" href="/assets/css/search-fixes.css">
+    <link rel="stylesheet" href="/assets/css/filter-buttons.css">
+    <link rel="stylesheet" href="/assets/css/contact.css">
 </head>
 <body>
     <header>

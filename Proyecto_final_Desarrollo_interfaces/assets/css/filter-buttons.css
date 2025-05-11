@@ -1,0 +1,15 @@
+/* Estilos para los botones de filtro en la búsqueda avanzada */
+
+.filter-buttons {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaciado mayor entre botones */
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.filter-buttons .btn {
+    min-width: 120px; /* Ancho mínimo para los botones */
+    text-align: center;
+}

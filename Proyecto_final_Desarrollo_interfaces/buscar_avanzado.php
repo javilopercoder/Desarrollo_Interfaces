@@ -140,6 +140,8 @@ try {
                                 <label for="fecha_desde">Desde:</label>
                                 <input type="date" id="fecha_desde" name="fecha_desde" value="<?php echo $fecha_desde; ?>" class="form-control">
                             </div>
+                        </div>
+                        <div class="date-inputs">
                             <div>
                                 <label for="fecha_hasta">Hasta:</label>
                                 <input type="date" id="fecha_hasta" name="fecha_hasta" value="<?php echo $fecha_hasta; ?>" class="form-control">
@@ -166,6 +168,7 @@ try {
                     <button type="submit" class="btn btn-primary">
                         <i class="fas fa-search"></i> Buscar
                     </button>
+                    &nbsp;&nbsp;&nbsp;
                     <button type="button" id="reset-btn" class="btn">
                         <i class="fas fa-redo"></i> Restablecer filtros
                     </button>

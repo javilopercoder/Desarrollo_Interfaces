@@ -242,6 +242,26 @@ include '../includes/header.php';
                     <p>Añadir un nuevo usuario al sistema</p>
                 </div>
             </a>
+            
+            <a href="estadisticas.php" class="quick-action-card">
+                <div class="quick-action-icon">
+                    <i class="fas fa-chart-bar"></i>
+                </div>
+                <div class="quick-action-info">
+                    <h3>Estadísticas de visitas</h3>
+                    <p>Ver datos detallados de las visitas al sitio</p>
+                </div>
+            </a>
+            
+            <a href="mail_diagnostico.php" class="quick-action-card">
+                <div class="quick-action-icon">
+                    <i class="fas fa-envelope-open-text"></i>
+                </div>
+                <div class="quick-action-info">
+                    <h3>Diagnóstico de correo</h3>
+                    <p>Verificar el estado del sistema de correo electrónico</p>
+                </div>
+            </a>
         </div>
     </div>
 </div>
